@@ -1,0 +1,23 @@
+.search-barr {
+  position: absolute;
+  top: 40%;
+  bottom: 0%;
+  right: 0%;
+  font-size: 12px;
+  color: black;
+}
+.search-btnn {
+    width: 50px;
+    height: 23px;
+    border: none;
+}
+.search-inputt {
+  color: #868686;
+
+}
+.search-inputt:focus {
+  color: white;
+}
+.search-holder {
+    color: black;
+}

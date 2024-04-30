@@ -1,0 +1,23 @@
+.container.profile {
+  margin-top: 100px; 
+}
+.card {
+  background: transparent !important; /* Set the background to transparent */
+  margin-bottom: 30px;
+  transition: .5s;
+  border: 0;
+  border-radius: .1875rem;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  box-shadow: none;
+}
+.card-body{
+  border-top: 1px solid rgba(255, 255, 255, 0.055);
+
+
+}
+.card-body h4,
+.card-body p {
+  color: #fff; /* Set the text color to white */
+}

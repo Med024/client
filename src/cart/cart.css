@@ -1,0 +1,151 @@
+/* Cart.css */
+.cart-title {
+    font-size: 24px;
+    color: #333;
+  }
+ 
+  
+  .cart-items-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cart-items-list {
+    width: 70%;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;
+
+  }
+  .cart-item a {
+color: white;
+text-decoration:none;
+
+  }
+  
+  .item-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .item-details {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .item-price {
+    font-weight: bold;
+  }
+  
+  .item-quantity {
+    text-align: center;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-delete {
+    cursor: pointer;
+  }
+  
+  .order-summary-container {
+    padding: 15px;
+  }
+  
+  .order-summary-values {
+    font-weight: bold;
+  }
+  
+  .checkout-button {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+  }
+  .container.cart {
+    padding-top: 6rem !important;
+  }
+
+
+
+.quantity-controls {
+  display: flex;
+  align-items: center; 
+}
+
+.btn.minus,
+.btn.plus {
+  margin: 0px 20px;
+  background-color: #00000000 !important;
+  border: 1px solid white;
+
+}
+
+
+.cart-quantity {
+  background-color: red; /* Adjust the background color as needed */
+  color: white;
+  border-radius: 50%;
+  padding: 0px 5px;
+  font-size: 10px;
+  position: absolute;
+  top: 20px;
+}
+#testbutton {
+  width: 150px;
+  height:50px;
+  border-radius:180px;
+  position:relative;
+  left: 50%;
+
+  background: linear-gradient(60deg,  #ef4e7b, #f50000, #c85050);  cursor:pointer;
+}
+
+#testbutton:before {
+  content:'';
+  z-index:1;
+  position:absolute;
+  display:block;
+  width:80%;
+  height:70%;
+  top:15%;
+  left:10%;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(15px);
+  opacity:0;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+#testbutton:hover:before {
+  opacity:1;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(25px);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);  
+}
+
+#testbutton:after {
+  content:' Process Checkout ';
+  text-align:center;
+  line-height:35px;
+  font-size:10px;
+  color:rgba(235,235,235,1);
+  font-weight:light;
+  z-index:5;
+  position:absolute;
+  display:block;
+  width:92%;
+  height:80%;
+  top:10%;
+  left:4%;  
+  background-color:rgb(19, 20, 22);
+}
+
+.form-control {
+  width: 100px !important;
+
+}

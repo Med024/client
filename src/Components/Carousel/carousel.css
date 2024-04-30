@@ -1,0 +1,29 @@
+.carousel-container {
+    margin-top: -25px;
+
+    
+  }
+  
+  .carousel-container img {
+    padding-left: 20%;
+  }
+
+.carousel-control-next-icon, .carousel-control-prev-icon  {
+    display: none !important;
+}
+.carousel-indicators{
+  top: 600px;
+
+}
+.carousel-indicators [data-bs-target] {
+  height: 10px !important;
+  border: none !important; 
+  border-radius: 50px !important;
+}
+
+.carousel-item {
+  cursor: pointer;
+}
+
+
+

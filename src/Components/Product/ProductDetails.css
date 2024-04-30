@@ -1,0 +1,66 @@
+/* ProductDetails.css */
+
+/* Stock Status */
+#stock_status {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  /* Green color for 'In Stock' */
+  .greenColor {
+    color: green;
+  }
+  
+  /* Red color for 'Out of Stock' */
+  .redColor {
+    color: red;
+  }
+  .btn-grad {
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none !important;
+  }
+  
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .form-control{
+    width: auto !important;
+  }
+ #product_image img {
+  margin-left: 40% ;
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  #product_image img {
+    max-width: 100%;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #product_image img {
+    max-width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 769px) {
+  #product_image img {
+    max-width: 70%;
+    margin-left: 10%;
+  }
+}
